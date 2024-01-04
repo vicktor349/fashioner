@@ -16,10 +16,10 @@ const Navbar = () =>
                 <Link href="#">Blouse</Link>
                 <Link href="#">Trousers</Link>
                 <div className='flex items-center space-x-2'>
-                    <IoCart className='text-xl' /> <span className="text-buttonPrimary">0</span>
+                    <IoCart className='text-xl' /> <span className="text-primary">0</span>
                 </div>
             </div>
-            <button className="text-white w-24 h-12 bg-buttonPrimary rounded-lg ml-auto">Login</button>
+            <button className="text-white w-24 h-12 bg-primary rounded-lg ml-auto">Login</button>
         </div>
     )
 }
