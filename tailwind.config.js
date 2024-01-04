@@ -8,10 +8,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "buttonPrimary": "#FF5A5F"
+        "primary": "#FF5A5F",
+        "heroBackground": "rgba(0, 0, 0, 0.66)"
       },
       fontFamily: {
         body: ['Montserrat']
+      },
+      scale: {
+        '-100': '-1'
       }
     },
   },
