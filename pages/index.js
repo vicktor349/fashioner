@@ -5,6 +5,7 @@ import LatestProduct from '@/components/LatestProduct'
 import Gowns from '@/components/Gowns'
 import HeroBanner from '@/components/HeroBanner'
 import Recommended from '@/components/Recommended'
+import Newsletter from '@/components/Newsletter'
 
 
 
@@ -21,6 +22,7 @@ export default function Home()
         <Gowns />
         <HeroBanner />
         <Recommended />
+        <Newsletter />
       </main>
     </>
   )
