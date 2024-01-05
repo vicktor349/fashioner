@@ -3,6 +3,7 @@ import Head from 'next/head'
 import HeroSection from '@/components/HeroSection'
 import LatestProduct from '@/components/LatestProduct'
 import Gowns from '@/components/Gowns'
+import HeroBanner from '@/components/HeroBanner'
 
 
 
@@ -17,6 +18,7 @@ export default function Home()
         <HeroSection />
         <LatestProduct />
         <Gowns />
+        <HeroBanner />
       </main>
     </>
   )
