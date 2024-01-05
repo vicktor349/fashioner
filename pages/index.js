@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import HeroSection from '@/components/HeroSection'
-import ProductCard from '@/components/ProductCard'
+import LatestProduct from '@/components/LatestProduct'
 
 
 
@@ -14,7 +14,7 @@ export default function Home()
       </Head>
       <main>
         <HeroSection />
-        <ProductCard />
+        <LatestProduct />
       </main>
     </>
   )

@@ -16,6 +16,9 @@ module.exports = {
       },
       scale: {
         '-100': '-1'
+      },
+      boxShadow: {
+        "latestProductBoxShadow": "0px 20px 50px 0px rgba(0, 0, 0, 0.10)"
       }
     },
   },
