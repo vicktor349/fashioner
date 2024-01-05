@@ -4,6 +4,7 @@ import HeroSection from '@/components/HeroSection'
 import LatestProduct from '@/components/LatestProduct'
 import Gowns from '@/components/Gowns'
 import HeroBanner from '@/components/HeroBanner'
+import Recommended from '@/components/Recommended'
 
 
 
@@ -19,6 +20,7 @@ export default function Home()
         <LatestProduct />
         <Gowns />
         <HeroBanner />
+        <Recommended />
       </main>
     </>
   )
