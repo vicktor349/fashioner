@@ -7,7 +7,7 @@ const Navbar = () =>
     return (
         <div className='font-bold flex'>
             <div>
-                <Link href="/" className="font-bold text-3xl">Fashioner</Link>
+                <Link href="/" className="font-bold text-3xl font-body">Fashioner</Link>
             </div>
             <div className='flex mx-auto items-center space-x-9'>
                 <Link href="#">New Arrivals</Link>
