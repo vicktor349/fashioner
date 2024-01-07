@@ -6,8 +6,8 @@ const Layout = ({ children }) =>
 {
     return (
         <div>
-            <div className='mt-[30px]  mx-[150px] '>
-                <Navbar />
+            <Navbar />
+            <div className='ssm:mx-[20px] lg:mx-[60px] mt-[30px] xl:mx-[150px]'>
                 {children}
             </div>
             <Footer />

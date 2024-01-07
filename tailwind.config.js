@@ -25,6 +25,9 @@ module.exports = {
         "latestProductBoxShadow": "0px 20px 50px 0px rgba(0, 0, 0, 0.10)",
         "subscribeShadow": "0px 20px 50px 0px rgba(255, 90, 95, 0.20)",
         "subscribeBannerShadow": "0px 20px 30px 0px rgba(8, 126, 139, 0.10)"
+      },
+      screens: {
+        'ssm': '360px'
       }
     },
   },
