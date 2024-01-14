@@ -5,7 +5,7 @@ import Link from 'next/link'
 const HeroSection = () =>
 {
     return (
-        <div className="bg-heroBackground rounded-lg mt-12">
+        <div className="bg-heroBackground rounded-lg">
             <div className='grid grid-cols-2 mx-20'>
                 <div>
                     <div className='text-primary font-bold text-4xl mt-16'>
@@ -30,19 +30,22 @@ const HeroSection = () =>
                 </div>
                 <div>
                     <Image
-                        className='mx-auto transform -scale-x-100 z-50 relative left-6'
+                        className='mx-auto transform -scale-x-100 z-50 relative left-6 lg:mr-0'
                         src={"/images/heroImage.png"}
                         width={350}
                         height={350}
                         alt="Hero Banner Image"
                     />
 
-                    <div className='border-2 border-solid border-primary w-[33.4rem] origin-center rotate-6 absolute top-80 z-0'>
+                    {/* <div className="border-2 border-solid border-primary origin-center absolute z-0
+                        xl:top-80 xl:rotate-6 xl:w-[33.4rem] max-w-full xl:right-[9.3rem]
+                        2xl:top-80 2xl:rotate-6 2xl:w-[33.4rem] 2xl:right-[9.3rem]"
+                    >
                     </div>
-                    <div className='border-2 border-solid border-primary w-[24rem] origin-center rotate-[50deg] absolute top-[27.45rem] left-[38.5rem] z-[100] '>
+                    <div className="border-2 border-solid border-primary w-[24rem] origin-center rotate-[50deg] absolute top-[27.45rem] left-[38.5rem] z-[100] 2xl:left-[54rem]">
                     </div>
                     <div className='border-2 border-solid border-primary w-[23.2rem] origin-center rotate-[140.5deg] absolute top-[29.2rem] right-[6.75rem] z-[100] '>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
