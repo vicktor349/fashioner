@@ -18,11 +18,11 @@ export default function Home()
       </Head>
       <main>
         <HeroSection />
-        <LatestProduct />
+        {/* <LatestProduct />
         <Gowns />
         <HeroBanner />
         <Recommended />
-        <Newsletter />
+        <Newsletter /> */}
       </main>
     </>
   )
